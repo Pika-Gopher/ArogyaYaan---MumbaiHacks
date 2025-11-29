@@ -1,0 +1,8 @@
+deepagents
+langchain-google-genai
+langchain-community
+langchain-text-splitters
+faiss-cpu
+psycopg2-binary
+requests
+langchain-groq
