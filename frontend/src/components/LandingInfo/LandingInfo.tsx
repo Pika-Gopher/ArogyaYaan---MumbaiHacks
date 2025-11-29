@@ -32,7 +32,7 @@ const HowItWorksComponent = () => {
         "Prioritization has become far more efficient. We no longer rely on manual logs; the AI provides a complete, rationalized fix.",
       author: "Dr. Sameer",
       role: "District Operations Lead",
-      image: "/images/how-prioritize.png",
+      image: "/images/why-not.png",
     },
     {
       id: "automate",
@@ -45,7 +45,7 @@ const HowItWorksComponent = () => {
         "The transfer workflow is instantaneous. Field teams receive actionable SMS alerts immediately without phone calls or manual paperwork.", 
       author: "Meera Naik",
       role: "Senior Field Coordinator",
-      image: "/images/how-engage.png",
+      image: "/images/sucks-to.png",
     },
     {
       id: "verify",
@@ -58,7 +58,7 @@ const HowItWorksComponent = () => {
         "Centralised insights help us understand district-wide performance and prepare accurate reports, knowing that stock verification is digitally enforced.",
       author: "Rahul Patil",
       role: "Data & Analytics Officer",
-      image: "/images/how-connect.png",
+      image: "/images/hopeful-ways.png",
     },
   ];
 
