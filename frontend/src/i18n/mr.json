@@ -1,0 +1,120 @@
+{
+  "dashboard": {
+    "title": "डॅशबोर्ड",
+    "metrics": {
+      "criticalAlerts": "गंभीर सूचना",
+      "activeTransfers": "सक्रिय हस्तांतरण",
+      "networkHealth": "नेटवर्क आरोग्य",
+      "valueSaved": "वाचवलेली किंमत"
+    },
+    "map": {
+      "title": "लाईव्ह नकाशा",
+      "marker": {
+        "status": {
+          "critical": "गंभीर",
+          "warning": "इशारा",
+          "healthy": "स्वस्थ"
+        },
+        "daysOfStockLeft": "{{days}} दिवस उरले",
+        "criticalItem": "महत्त्वाचे आयटम: {{item}}"
+      }
+    },
+    "activity": {
+      "title": "अलीकडील क्रिया",
+      "empty": "अलीकडील क्रिया उपलब्ध नाही"
+    },
+    "accessibility": {
+      "liveMapAlt": "PHC स्थान दर्शवणारा नकाशा",
+      "metricsListLabel": "डॅशबोर्ड मेट्रिक्स"
+    }
+  },
+  "charts": {
+    "adoption_rate_title": "स्वीकार दर",
+    "ai_recommendations": "एआय सूचना",
+    "manual_requests": "मॅन्युअल विनंत्या"
+  },
+  "alerts_filter": {
+    "urgency": "तातडीचा स्तर",
+    "medicine": "औषध",
+    "prediction_horizon": "भविष्यवाणी कालावधी",
+    "all": "सर्व",
+    "stockout_lt_7": "७ दिवसांपेक्षा कमी साठा",
+    "stockout_7_14": "७ - १४ दिवस",
+    "sort_newest": "क्रमवारी: नवीन",
+    "export_csv": "CSV निर्यात करा"
+  },
+  "card_action_footer": {
+    "reject_modify": "नाकार करा / बदल करा",
+    "approve_transfer": "हस्तांतर मंजूर करा",
+    "modal_title": "शिफारस नाकार करा किंवा बदल करा",
+    "alternate_donor": "पर्यायी दाता (ऐच्छिक)",
+    "alternate_donor_placeholder": "दाता सुविधा नाव प्रविष्ट करा",
+    "updated_quantity": "अद्ययावत प्रमाण (ऐच्छिक)",
+    "enter_quantity": "प्रमाण प्रविष्ट करा",
+    "cancel": "रद्द करा",
+    "confirm": "निश्चित करा"
+  },
+  "card_problem_section": {
+    "medicine": "औषध",
+    "prediction": "भविष्यवाणी",
+    "context": "संदर्भ"
+  },
+  "card_solution_section": {
+    "ai_recommendation": "एआय शिफारस",
+    "donor_facility_status": "दाता केंद्र स्थिती",
+    "logistics_plan": "लॉजिस्टिक योजना",
+    "distance": "अंतर",
+    "mode": "वाहतुकीचा प्रकार",
+    "eta": "अनुमानित वेळ",
+    "hours": "तास"
+  },
+  "chart_card": {
+    "title": "रुग्णांचा कल",
+    "tooltip_value": "मूल्य",
+    "tooltip_month": "महिना"
+  },
+  "logistics_cost_breakdown": {
+    "title": "वाहतूक खर्चाचे विभाजन"
+  },
+  "date_range": {
+    "preset": "पूर्वनियोजित",
+    "last_30d": "मागील 30 दिवस",
+    "last_90d": "मागील 90 दिवस",
+    "q1_2024": "Q1 2024",
+    "from": "पासून",
+    "to": "पर्यंत"
+  },
+  "expired_drugs": {
+    "title": "कालबाह्य औषधे (टॉप 5)",
+    "drug": "औषध",
+    "qty_lost": "नुकसानीतील प्रमाण",
+    "value_inr": "किंमत (INR)"
+  },
+  "recentActivity": "अलीकडील क्रियाकलाप",
+  "activityMessage1": "n8n ने बेलूर PHC ला ५०० पॅरासिटामॉल पाठवले",
+  "activityTime1": "१० मिनिटांपूर्वी",
+  "activityMessage2": "भविष्यवाणी मॉडेल अद्ययावत केले",
+  "activityTime2": "२५ मिनिटांपूर्वी",
+  "activityMessage3": "मांड्या जिल्ह्याचा इन्व्हेंटरी समक्रमण पूर्ण",
+  "activityTime3": "१ तासापूर्वी",
+  "activityMessage4": "के.आर. पेट येथून स्वयंचलित स्टॉक विनंती पाठवली",
+  "activityTime4": "२ तासांपूर्वी",
+  "filterHigh": "उच्च",
+  "filterMedium": "मध्यम",
+  "medicineType": "औषध प्रकार",
+  "medicineAntibiotic": "प्रतिजैविक",
+  "medicineAnalgesic": "वेदनाशामक",
+  "medicineAntiviral": "प्रतिव्हायरल",
+  "medicineAntipyretic": "ज्वरनाशक",
+  "searchPhc": "PHC शोधा...",
+  "globalRulesTitle": "जागतिक स्टॉक आणि इन्व्हेंटरी नियम — मुंबई विभाग",
+
+  "safetyBufferLabel": "जागतिक सुरक्षितता स्टॉक बफर (%)",
+  "safetyBufferDesc": "वाडाळा, सायन, दादर, कुर्ला, चेंबूर येथील PHC ने किमान इतका न-हस्तांतरित होणारा स्टॉक बफर राखणे आवश्यक आहे.",
+
+  "enableTherapeuticSub": "थेरप्युटिक सब्स्टिट्युशन सक्षम करा",
+  "enableTherapeuticSubDesc": "स्टॉक संपल्यास AI ने वैद्यकीयदृष्ट्या योग्य पर्यायी औषध सुचवण्याची परवानगी द्या.",
+
+  "minDaysLabel": "किमान दिवसांचा स्टॉक मर्यादा",
+  "minDaysDesc": "स्टॉक या दिवसांच्या खाली गेल्यास PHC चा स्टेटस 'Critical' होतो."
+}

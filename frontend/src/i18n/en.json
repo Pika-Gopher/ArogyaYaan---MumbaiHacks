@@ -1,0 +1,120 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "metrics": {
+      "criticalAlerts": "Critical Alerts",
+      "activeTransfers": "Active Transfers",
+      "networkHealth": "Network Health",
+      "valueSaved": "Value Saved"
+    },
+    "map": {
+      "title": "Live Map",
+      "marker": {
+        "status": {
+          "critical": "Critical",
+          "warning": "Warning",
+          "healthy": "Healthy"
+        },
+        "daysOfStockLeft": "{{days}} days left",
+        "criticalItem": "Critical item: {{item}}"
+      }
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "empty": "No recent activity"
+    },
+    "accessibility": {
+      "liveMapAlt": "Map showing PHC locations",
+      "metricsListLabel": "Dashboard metrics"
+    }
+  },
+  "charts": {
+    "adoption_rate_title": "Adoption Rate",
+    "ai_recommendations": "AI Recommendations",
+    "manual_requests": "Manual Requests"
+  },
+  "alerts_filter": {
+    "urgency": "Urgency",
+    "medicine": "Medicine",
+    "prediction_horizon": "Prediction Horizon",
+    "all": "All",
+    "stockout_lt_7": "Stockout in < 7 days",
+    "stockout_7_14": "7 - 14 days",
+    "sort_newest": "Sort: Newest",
+    "export_csv": "Export CSV"
+  },
+  "card_action_footer": {
+    "reject_modify": "Reject / Modify",
+    "approve_transfer": "Approve Transfer",
+    "modal_title": "Reject or Modify Recommendation",
+    "alternate_donor": "Alternate Donor (optional)",
+    "alternate_donor_placeholder": "Enter donor facility name",
+    "updated_quantity": "Updated Quantity (optional)",
+    "enter_quantity": "Enter quantity",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "card_problem_section": {
+    "medicine": "Medicine",
+    "prediction": "Prediction",
+    "context": "Context"
+  },
+  "card_solution_section": {
+    "ai_recommendation": "AI Recommendation",
+    "donor_facility_status": "Donor Facility Status",
+    "logistics_plan": "Logistics Plan",
+    "distance": "Distance",
+    "mode": "Mode",
+    "eta": "ETA",
+    "hours": "hrs"
+  },
+  "chart_card": {
+    "title": "Patients Trend",
+    "tooltip_value": "Value",
+    "tooltip_month": "Month"
+  },
+  "logistics_cost_breakdown": {
+    "title": "Logistics Cost Breakdown"
+  },
+  "date_range": {
+    "preset": "Preset",
+    "last_30d": "Last 30d",
+    "last_90d": "Last 90d",
+    "q1_2024": "Q1 2024",
+    "from": "From",
+    "to": "To"
+  },
+  "expired_drugs": {
+    "title": "Top Expired Drugs (Top 5)",
+    "drug": "Drug",
+    "qty_lost": "Qty Lost",
+    "value_inr": "Value (INR)"
+  },
+  "recentActivity": "Recent Activity",
+  "activityMessage1": "n8n dispatched 500 Paracetamol to Dadar PHC",
+  "activityTime1": "10 mins ago",
+  "activityMessage2": "Prediction Model updated",
+  "activityTime2": "25 mins ago",
+  "activityMessage3": "Inventory sync completed for Worli PHC",
+  "activityTime3": "1 hour ago",
+  "activityMessage4": "Automated stock request sent from KR Pet",
+  "activityTime4": "2 hours ago",
+  "filterHigh": "High",
+  "filterMedium": "Medium",
+  "medicineType": "Medicine Type",
+  "medicineAntibiotic": "Antibiotic",
+  "medicineAnalgesic": "Analgesic",
+  "medicineAntiviral": "Antiviral",
+  "medicineAntipyretic": "Antipyretic",
+  "searchPhc": "Search PHC...",
+  "globalRulesTitle": "Global Stock & Inventory Rules — Mumbai Region",
+
+  "safetyBufferLabel": "Global Safety Stock Buffer (%)",
+  "safetyBufferDesc": "Minimum non-transferable stock buffer PHCs (Wadala, Sion, Dadar, Kurla, Chembur) must maintain.",
+
+  "enableTherapeuticSub": "Enable Therapeutic Substitution",
+  "enableTherapeuticSubDesc": "Allow AI to suggest clinically valid substitute drugs when stockouts occur.",
+
+  "minDaysLabel": "Minimum Days of Stock Threshold",
+  "minDaysDesc": "PHCs drop into Critical Status if stock falls below this number of days."
+}
