@@ -16,7 +16,12 @@ analyst_agent_graph = create_deep_agent(
     Your GOAL is to find ALL PHCs with TRUE SURPLUS.
     1. Use 'find_surplus_donors'.
     2. Return the FULL JSON LIST of candidates so the Supervisor can choose.
-    3. If no donors found, return "No donors found with sufficient surplus."""
+    3. If no donors found, return:
+        {
+            "donors": [],
+            "status": "NO_SURPLUS"
+        }
+    """
 )
 
 analyst_subagent = CompiledSubAgent(
